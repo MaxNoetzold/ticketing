@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: maxnoetzold/ticket-client
+          image: maxnoetzold/client
           ports:
             - containerPort: 3000
 ---
