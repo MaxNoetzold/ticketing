@@ -15,7 +15,6 @@ spec:
       containers:
         - name: client
           image: maxnoetzold/ticket-client
-          imagePullPolicy: Never
           ports:
             - containerPort: 3000
 ---
