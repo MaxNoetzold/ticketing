@@ -5,7 +5,7 @@ const buildClient = ({ req }) => {
     // We are on the server!
     // Requests should be made to http://SERVICENAME.NAMESPACE.svc.cluster.local/PATH
     return axios.create({
-      baseURL: "http://udemy.esporttips.de/",
+      baseURL: "http://www.udemy.esporttips.de/",
       headers: req.headers,
     });
   } else {
