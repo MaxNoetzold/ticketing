@@ -34,9 +34,9 @@ const OrderShow = (props) => {
   return (
     <div>
       <h1>Order Details</h1>
-      <h4>{order.ticket.title}</h4>
-      <h4>{order.ticket.price}</h4>
-      <h4>{order.status}</h4>
+      <p>{order.ticket.title}</p>
+      <p>{order.ticket.price}</p>
+      <p>{order.status}</p>
       {timeLeft > 0 ? (
         <h4>Time left to pay: {timeLeft} seconds</h4>
       ) : (
