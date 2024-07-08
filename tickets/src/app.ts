@@ -17,7 +17,7 @@ app.use(
     // Disable encryption bc JWT is already encrypted
     signed: false,
     // Only use cookies over HTTPS
-    secure: process.env.NODE_ENV !== "test",
+    secure: false,
   })
 );
 app.use(currentUser);

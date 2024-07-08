@@ -5,8 +5,7 @@ const buildClient = ({ req }) => {
     // We are on the server!
     // Requests should be made to http://SERVICENAME.NAMESPACE.svc.cluster.local/PATH
     return axios.create({
-      baseURL:
-        "http://ingress-nginx-controller.ingress-nginx.svc.cluster.local",
+      baseURL: "http://udemy.esporttips.de/",
       headers: req.headers,
     });
   } else {
